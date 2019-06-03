@@ -10,7 +10,7 @@ body{
 #main-container{
 	background-color: lighten(rgba(253,213,139,1), 5%);
 	background-image: url(https://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-brown-solid-color-background.jpg);
-	height: 250px;
+	height: 450px;
 	width: 300px;
 	border-radius: 1%;
 	text-align: center;
@@ -35,6 +35,9 @@ Cal
 	width: 80%;
 	margin: 0 auto;
 	background-color: white;
+
+
+}
 	h1{
 		padding-top: 5%;
 		border-bottom: 2px solid lightgrey;
@@ -50,14 +53,16 @@ Cal
 	input{
 		margin-top: 2%;
 	}
-	
-	button{
+
+
+
+button{
 		background-color: #6c2726;
 		color: white;
 		border: none;
 		text-transform: uppercase;
 		font-size: 1.5em;
-		width: 100%;
+		width: 200px;
 		padding: 20px 30px;
 	}
 	
@@ -70,26 +75,38 @@ Cal
 		position: relative;
 		top: 3px;
 	}
-
-}
-
 /*****
 totalTip
 ******/ 
 #totalTip{
 	padding-top: 6%;
-	font-size: 2.8em;
+	
 }
+
 
 #totalTip:before{
 	content: "Tip amount";
-	font-size: 0.3em;
+	font-size: 2.00em;
 	font-weight: bold;
 	display: block;
 	text-transform: uppercase;
+	color: yellow;
 }
 
 #totalTip small{
+	margin-top: 20px;
 	display: block;
-	font-size: 0.4em;
+	font-size: 3.0em;
+}
+#each{
+	font-size: 2.43em;
+	color: white;
+}
+#tip{
+	font-size: 2.0em;
+	 color: blue;
+}
+#dollar-sign{
+	font-size: 2.0em;
+	color: green;
 }
