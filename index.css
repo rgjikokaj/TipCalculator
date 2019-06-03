@@ -1,0 +1,95 @@
+/*****
+Main
+******/ 
+body{
+	background: url(https://media.timeout.com/images/103139448/630/472/image.jpg) no-repeat;
+	background-size: cover;
+  height:550px;
+ }
+
+#main-container{
+	background-color: lighten(rgba(253,213,139,1), 5%);
+	background-image: url(https://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-brown-solid-color-background.jpg);
+	height: 250px;
+	width: 300px;
+	border-radius: 1%;
+	text-align: center;
+	box-shadow: 0px 5px 20px grey;
+	margin: 0 auto;
+  position: relative;
+  display: block;
+  /*optional background or border*/
+  border: solid 4px #AD1457;
+  margin-top: 5%;
+  background: none;
+
+
+}
+
+
+/*****
+Cal
+******/ 
+#calculator{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+	h1{
+		padding-top: 5%;
+		border-bottom: 2px solid lightgrey;
+	}
+	
+	form label{
+		display: block;
+		padding-top: 5%;
+		font-weight: bold;
+		margin: 10px;
+	}
+	
+	input{
+		margin-top: 2%;
+	}
+	
+	button{
+		background-color: #6c2726;
+		color: white;
+		border: none;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		width: 100%;
+		padding: 20px 30px;
+	}
+	
+	button:hover{
+		background: #4c2827;
+		border-bottom-color: #111;
+	}
+	
+	button:active{
+		position: relative;
+		top: 3px;
+	}
+
+}
+
+/*****
+totalTip
+******/ 
+#totalTip{
+	padding-top: 6%;
+	font-size: 2.8em;
+}
+
+#totalTip:before{
+	content: "Tip amount";
+	font-size: 0.3em;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+}
+
+#totalTip small{
+	display: block;
+	font-size: 0.4em;
+}
